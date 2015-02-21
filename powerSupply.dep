@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>895067320</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\display.c</file>
+      <file>$PROJ_DIR$\sound.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\sound.h</file>
+      <file>$PROJ_DIR$\vars.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\functions.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\powerSupply.pbd</file>
+      <file>$PROJ_DIR$\functions.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\display.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vars.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\vars.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\work.c</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm16.xcl</file>
+      <file>$PROJ_DIR$\Debug\List\sound.s90</file>
+      <file>$PROJ_DIR$\display.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sound.r90</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\firmware.hex</file>
+      <file>$PROJ_DIR$\Debug\List\display.s90</file>
+      <file>$PROJ_DIR$\Debug\List\work.s90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3toim.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\iom16.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3t-ec_mul-sf.r90</file>
+      <file>$PROJ_DIR$\Debug\List\functions.s90</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sound.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\vars.s90</file>
+      <file>$PROJ_DIR$\global.h</file>
+      <file>$PROJ_DIR$\Debug\List\main.s90</file>
+      <file>$PROJ_DIR$\Debug\Obj\work.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\functions.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom16.inc</file>
+      <file>$PROJ_DIR$\Debug\Obj\work.r90</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$PROJ_DIR$\init.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 30 38 24 27 36 35 19 17 3</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 16 30 38 24 27 36 35 19 17 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sound.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 15 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 38 24 27 36 35 19 17</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30 38 24 27 36 35 19 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 31 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 38 24 27 36 35 19 17 16 3</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30 38 24 27 36 35 19 17 16 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\vars.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 38 24 27 36 35</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 39 38 24 27 36 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\powerSupply.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 9 12 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\functions.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 26 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 38 24 27 36 35</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30 38 24 27 36 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\work.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 22 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 38 24 27 36 35</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 39 38 24 27 36 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\firmware.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14 23 8 34 18 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
